@@ -6,7 +6,7 @@ this; Claude keeps it current. Started 18/10/2026.
 ## Open
 
 Order (Sammy, 18/10): the jobs that came from the CRM (2–4) come first,
-then the audit (5). 6–8 were noticed on 18/10 and go with the audit.
+then the audit (5). 7–8 were noticed on 18/10 and go with the audit.
 
 **The connector can't edit pages** (checked 18/10): this is a Wix Editor
 site, and the connector reaches its data (shop, forms, page titles for
@@ -40,16 +40,6 @@ Publish. The clickable mock-up is dropped.
    the connector for what it can read (page titles and descriptions,
    visitor numbers, an accessibility scan, forms, shop), the live pages
    for the rest.
-6. **The contact form** (noticed 18/10). Contact us and the bottom of
-   Memberships have a Wix form (first name, last name, email, message).
-   An email arrives for each one (Sammy, 18/10). If that email goes to
-   info@round1boxfit.co.uk, the CRM already gets a copy on Enquiries →
-   Email, and it's built for form emails: it finds the real person's
-   address in the message, so the draft reply goes to them, not to Wix
-   (`src/lib/server/enquiries.ts` in the CRM). Waiting on Sammy: which
-   address the emails go to, and a look for a recent one in Enquiries →
-   Email. If it's there, this item is done; if not, point the form's
-   emails at info@.
 7. **No cookie banner** (noticed 18/10). None showed on the live site, and
    no Google or Meta tracking is on it. To check: Wix's cookie banner
    setting, then Sammy decides whether to turn it on (Claude isn't a
@@ -63,3 +53,7 @@ Publish. The clickable mock-up is dropped.
 
 1. **Connect Wix.** Done 18/10: the connector reaches the Round One site
    (Premium, custom domain, Wix Editor, Velo on).
+6. **The contact form.** Done 18/10: its emails go to info@ (Sammy), so
+   the CRM gets a copy on Enquiries → Email and drafts the reply to the
+   person who filled it in, not to Wix. Worth a glance next time one
+   comes in, to see it there.
