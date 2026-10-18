@@ -18,9 +18,11 @@ job touches leads, bookings, messages or members.
   connector reaches the site's data: page titles and descriptions for
   Google, redirects, the shop, forms, site settings, visitor numbers and
   accessibility scans. It **can't** change pages, text, buttons, the menu
-  or the footer. Those are done by Sammy in the Wix Editor, with exact
-  steps and the text to paste written by Claude in `docs/` (see
-  `docs/editor-steps.md`), then checked by Claude on the live site.
+  or the footer. Those are done in the Wix Editor (Sammy, 18/10: by
+  Claude through Claude in Chrome, in a session on Sammy's computer),
+  following steps written in `docs/` (see `docs/editor-steps.md`). Check
+  in the Editor's Preview; Sammy presses Publish. A cloud session can't
+  reach Chrome.
 - **This repo holds the thinking:** `docs/plan.md` (where the site is
   going), `docs/open-list.md` (what's in progress and what each item waits
   on), page notes and copy drafts. Claude keeps both current.
