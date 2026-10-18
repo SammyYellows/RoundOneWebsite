@@ -40,14 +40,16 @@ Publish. The clickable mock-up is dropped.
    the connector for what it can read (page titles and descriptions,
    visitor numbers, an accessibility scan, forms, shop), the live pages
    for the rest.
-6. **The contact form's messages stay in Wix** (noticed 18/10). Contact us
-   and the bottom of Memberships have a Wix form (first name, last name,
-   email, message), so those messages never reach the CRM as enquiries.
-   The footer's Enquire button goes to Contact us too. To check in Wix:
-   where its submissions and notification emails go. Then Sammy decides:
-   keep it, or swap it for the CRM's form and WhatsApp so every enquiry
-   lands in the CRM. Waiting on: the check (Chrome session or the
-   connector), then Sammy.
+6. **The contact form** (noticed 18/10). Contact us and the bottom of
+   Memberships have a Wix form (first name, last name, email, message).
+   An email arrives for each one (Sammy, 18/10). If that email goes to
+   info@round1boxfit.co.uk, the CRM already gets a copy on Enquiries →
+   Email, and it's built for form emails: it finds the real person's
+   address in the message, so the draft reply goes to them, not to Wix
+   (`src/lib/server/enquiries.ts` in the CRM). Waiting on Sammy: which
+   address the emails go to, and a look for a recent one in Enquiries →
+   Email. If it's there, this item is done; if not, point the form's
+   emails at info@.
 7. **No cookie banner** (noticed 18/10). None showed on the live site, and
    no Google or Meta tracking is on it. To check: Wix's cookie banner
    setting, then Sammy decides whether to turn it on (Claude isn't a
