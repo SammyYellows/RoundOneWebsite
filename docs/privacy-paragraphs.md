@@ -1,72 +1,51 @@
-# Privacy page: paragraphs for the site
+# Privacy page: wording for the site
 
 For the Wix Privacy Policy page (Pages & Menu → Add Page → Policies /
-Legal → Privacy Policy). Paste these under the template's sections, or as
-their own section. Claude isn't a lawyer: check the wording, or have
-someone look over it. Written 10/10/2026 from how the CRM works; copied
-from the CRM repo on 18/10/2026. If the CRM changes what it stores, its
-own privacy page (`crm.round1boxfit.co.uk/privacy`) is kept up to date:
-check these paragraphs against it before publishing.
+Legal → Privacy Policy). Claude isn't a lawyer: check the wording, or have
+someone look over it.
 
----
+## Where the wording comes from (18/10/2026)
 
-**Enquiries, intro meetings and memberships**
+The CRM has its own privacy policy at `crm.round1boxfit.co.uk/privacy`
+(last updated 14 October 2026; `src/app/privacy/page.tsx` in the CRM
+repo). It's newer and fuller than the paragraphs written for this page on
+10/10: it adds Facebook and Instagram messages, photos and voice notes,
+postcode area, staff notes, the ICO, how to have data deleted, and says
+the database is in London. Those old paragraphs are replaced by it.
 
-When you fill in our form, email us or book an intro meeting, we keep your
-name, mobile number, email address and your answers to our questions. We
-use them to arrange and remind you about your intro meeting and to follow
-up afterwards, by WhatsApp and email. If you become a member, your
-membership, bookings, attendance and payments are managed in TeamUp, our
-booking system, and we use them to run your membership and to support you
-(for example, checking in if we haven't seen you for a while). For your
-safety we also keep your signed waiver and emergency contact.
+So the website's page is:
 
-**Marketing**
+1. **The CRM policy, word for word**, in the same order: Who we are, What
+   we keep, How we use it, AI, Who we share it with, How long we keep it,
+   Your rights, How to have your data deleted, Changes. Copy it from the
+   live page at the time, so it's current.
+2. **Plus one section about the website itself**, which the CRM's page
+   doesn't cover (draft below).
 
-We may send occasional news and offers by email or WhatsApp. Every
-marketing email has an unsubscribe link, and you can reply STOP to any
-WhatsApp message. We'll still send messages about your own booking or
-membership.
+When the CRM's policy changes, this page changes too.
 
-**Where you found us**
+## Draft: "This website" (to check in Wix)
 
-If you reach our form from one of our Facebook or Instagram adverts, we
-record which advert it was, so we know which adverts work. We don't use
-this to build a profile of you.
+Square brackets are guesses to confirm once we can see the site's settings
+in Wix. Nothing in brackets goes live unchecked.
 
-**Door access**
+> **This website**
+>
+> This website is built and hosted by Wix. When you visit it, Wix uses
+> cookies to make the site work [and to count visits]. [You can choose
+> which cookies to accept in the banner at the bottom of the page.]
+>
+> [If you buy from our online shop, we keep your name, email address,
+> delivery address and what you ordered, to send you your order. Payments
+> are handled by [payment provider]; we never see your full card details.]
+>
+> [If you send us a message through a form on this website, it comes to
+> us by email and we use it to reply to you.]
 
-Our front door uses Kisi. We use the record of when your fob or phone
-opened the door to know who is in the building and to count visits.
+And under **Who we share it with**, add:
 
-**Who handles your details for us**
+> Wix: hosts this website [and our online shop].
 
-We use trusted services to run the gym: Supabase (our database, stored in
-Ireland), Vercel (our staff system and forms; their servers may be in the
-United States), TeamUp (memberships and bookings), Kisi (door access),
-Meta (WhatsApp messages), Resend (email) and Anthropic (an assistant that
-helps our staff read and reply to messages; a member of staff always
-checks before anything is sent). Some of these services may process data
-outside the UK; where they do, they protect it with the safeguards UK law
-requires.
-
-**How long we keep your details**
-
-Enquiries we haven't heard from for two years are deleted. Members' and
-former members' details are kept for as long as we need them to run
-memberships and meet our legal obligations.
-
-**Your choices**
-
-You can ask to see the details we hold about you, ask us to correct or
-delete them, or ask us to stop contacting you, at any time: email
-info@round1boxfit.co.uk or reply STOP to a WhatsApp message.
-
----
-
-Notes for Sammy:
-- The two-year deletion is a suggestion: change it to whatever you'll
-  actually do (the CRM doesn't delete anything automatically yet; that's
-  a later job if you want it).
-- If the server moves to Dublin (step 1.5 of the go-live plan), change
-  the Vercel line to "stored in Ireland".
+To check in Wix: the cookie banner and any analytics or tracking (Wix
+Analytics, Google, Meta pixel), whether the shop takes orders and who
+handles payment, and any forms on the site and where they send.

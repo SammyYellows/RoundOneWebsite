@@ -84,7 +84,9 @@ exclamation marks.
 ## Rules
 
 - **A privacy policy page** stays on the site, linked from the footer, and
-  true to what the site and the CRM collect.
+  true to what the site and the CRM collect. It carries the CRM's policy
+  (`crm.round1boxfit.co.uk/privacy`) word for word plus a section about
+  the website; when the CRM's policy changes, update the site's too.
 - **Phones too.** Check every change at phone width as well as desktop.
 - **Accessible:** alt text on images, readable contrast, real headings,
   respect reduced motion.
