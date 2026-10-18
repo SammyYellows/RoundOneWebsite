@@ -28,26 +28,32 @@ Seen in the page source on 18/10:
   Program found (Wix builds some text in the browser, so check in Wix).
 - Memberships links out to TeamUp.
 
-This came from the public pages only. The full audit, inside Wix, is the
-first job below.
+This came from the public pages only. The full audit, inside Wix, is step 2
+below.
 
 ## Order of work
 
-1. **Audit, inside Wix** (needs the Wix connector). Every page: what it's
+1. **The jobs from the CRM first** (Sammy, 18/10): the privacy page, the
+   WhatsApp number, and a link to the 28 Day Program form. Details in
+   `docs/open-list.md`, items 2–4.
+2. **Audit, inside Wix** (needs the Wix connector). Every page: what it's
    for, what's on it, what works, what doesn't, phone view, page titles
    and descriptions for Google, images (size, alt text), speed. Plus the
    menu, footer, forms, the shop and site settings. Written up in
    `docs/site-audit.md`.
-2. **Agree the goals with Sammy.** Questions to settle: what should a
+3. **Agree the goals with Sammy.** Questions to settle: what should a
    visitor do (start the 28 Day Program, book a class in TeamUp, call,
    WhatsApp)? Who is the site mainly for (new people, members, both)?
    Which pages matter most? What must stay?
-3. **Write the improvement plan** here: page by page, in the order that
+4. **Write the improvement plan** here: page by page, in the order that
    helps most, each with what changes and why.
-4. **Build it in Wix**, one agreed change at a time, nothing published
+5. **Build it in Wix**, one agreed change at a time, nothing published
    without Sammy's go-ahead. Each finished item moves to Done in
    `docs/open-list.md`.
 
 ## Decisions
 
-None yet. Add them here with a name and date.
+Add them here with a name and date.
+
+- The jobs that came from the CRM go first, before the audit (Sammy,
+  18/10).
