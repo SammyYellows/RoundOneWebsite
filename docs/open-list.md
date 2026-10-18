@@ -6,7 +6,7 @@ this; Claude keeps it current. Started 18/10/2026.
 ## Open
 
 Order (Sammy, 18/10): the jobs that came from the CRM (2–4) come first,
-then the audit (5).
+then the audit (5). 6–8 were noticed on 18/10 and go with the audit.
 
 **The connector can't edit pages** (checked 18/10): this is a Wix Editor
 site, and the connector reaches its data (shop, forms, page titles for
@@ -40,21 +40,22 @@ Publish. The clickable mock-up is dropped.
    the connector for what it can read (page titles and descriptions,
    visitor numbers, an accessibility scan, forms, shop), the live pages
    for the rest.
-
-## Noticed
-
-- **The site's contact form** (Contact us, and the bottom of
-  Memberships; first name, last name, email, message) is a Wix form, so
-  those messages stay in Wix and don't reach the CRM as enquiries. For
-  the audit: where its notifications go, and whether it should send
-  people to the CRM instead. The footer's Enquire button goes to Contact
-  us.
-- **No cookie banner** showed on the live site (18/10), and no Google or
-  Meta tracking is on it. For the audit: check Wix's cookie banner
-  setting (Claude isn't a lawyer).
-- **The shop is empty** (18/10): Wix Stores is installed with no
-  products, and its page (`/category/all-products`) is in the sitemap.
-  For the audit: hide it, or decide what to sell.
+6. **The contact form's messages stay in Wix** (noticed 18/10). Contact us
+   and the bottom of Memberships have a Wix form (first name, last name,
+   email, message), so those messages never reach the CRM as enquiries.
+   The footer's Enquire button goes to Contact us too. To check in Wix:
+   where its submissions and notification emails go. Then Sammy decides:
+   keep it, or swap it for the CRM's form and WhatsApp so every enquiry
+   lands in the CRM. Waiting on: the check (Chrome session or the
+   connector), then Sammy.
+7. **No cookie banner** (noticed 18/10). None showed on the live site, and
+   no Google or Meta tracking is on it. To check: Wix's cookie banner
+   setting, then Sammy decides whether to turn it on (Claude isn't a
+   lawyer). Waiting on: the Chrome session.
+8. **The shop is empty** (noticed 18/10). Wix Stores is installed with no
+   products, but its page (`/category/all-products`) is public and in the
+   sitemap. Sammy decides: hide the page, or put products in. Waiting on:
+   Sammy.
 
 ## Done
 
