@@ -2,7 +2,7 @@
 
 Claude isn't a lawyer: check the wording, or have someone look over it.
 
-## Recommended: one policy, linked from the footer (18/10/2026)
+## Agreed: one policy, linked from the footer (Sammy, 18/10/2026)
 
 The CRM already has a full privacy policy at
 `crm.round1boxfit.co.uk/privacy` (last updated 14 October 2026;
@@ -14,39 +14,31 @@ rights and how to have data deleted. The Meta app already uses it.
 So rather than a second copy on Wix that has to be kept in step, the
 site's footer links to that page (`docs/editor-steps.md`, job 1), and the
 CRM's page gets one short section about the website (below). One policy,
-one place to keep up to date. Needs Sammy's yes: it changes the CRM's
-public privacy page.
-
-The other way, if Sammy prefers the policy on the site's own address: a
-new blank page in Wix with the CRM policy pasted in, one text box per
-section, plus the section below, kept in step by hand whenever the CRM's
-policy changes.
+one place to keep up to date. The section went into the CRM on 18/10
+(pull request #261; live once merged).
 
 ## What the site collects (checked in Wix, 18/10)
 
 - **Shop:** Wix Stores is installed but has **no products**, so no orders
   are taken. If the shop starts selling, the policy needs a line about
   orders and payments.
-- **Forms:** no forms in Wix Forms. The older Wix Forms & Payments app is
-  installed; whether a page uses one of its forms is checked in the
-  Editor (Contact us is the likely place).
-- **Cookies:** Wix sets cookies on every Wix site. The cookie banner and
-  any tracking (Wix Analytics, Google, a Meta pixel) are checked in the
-  site's settings.
+- **Forms:** a contact form on Contact us and at the bottom of
+  Memberships (first name, last name, email, message). It isn't in Wix
+  Forms, so it's the older Wix Forms & Payments app.
+- **Cookies and tracking:** no Google or Meta tracking in the page source,
+  and no cookie banner showed (18/10). Wix's own cookies and visitor
+  counts apply.
 
-## Draft: "This website"
+## What went into the CRM's policy (18/10)
 
-Square brackets are still to check. Nothing in brackets goes live
-unchecked.
+"This policy covers how we handle your information when you **visit our
+website**, enquire about the gym, …", and a new section:
 
-> **This website**
+> **Our website**
 >
 > Our website, roundonefitness.co.uk, is built and hosted by Wix. When you
-> visit it, Wix uses cookies to make the site work [and to count visits].
-> [You can choose which cookies to accept in the banner on the site.]
-> [If you send us a message through a form on the website, it comes to us
-> and we use it to reply to you.]
+> visit it, Wix uses cookies to make the site work and to count visits. If
+> you send us a message through the contact form on the website, we keep
+> your name, email address and message, and use them to reply to you.
 
-And under **Who we share it with**, add:
-
-> Wix: hosts our website.
+And under **Who we share it with**: "Wix: hosts our website."
