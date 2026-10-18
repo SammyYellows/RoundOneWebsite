@@ -11,10 +11,16 @@ job touches leads, bookings, messages or members.
 
 ## How changes are made
 
-- **The site lives in Wix, not in this repo.** Claude changes it through
-  the Wix connector (connect at claude.ai/customize/connectors, then start
-  a new session: connectors load when a session starts). Nothing in this
-  repo deploys anything.
+- **The site lives in Wix, not in this repo.** Nothing in this repo
+  deploys anything.
+- **What the Wix connector can and can't do** (checked 18/10). It's a
+  Wix Editor site (site id `0220a2a1-ecdc-4b7a-8952-aac619d33eaa`). The
+  connector reaches the site's data: page titles and descriptions for
+  Google, redirects, the shop, forms, site settings, visitor numbers and
+  accessibility scans. It **can't** change pages, text, buttons, the menu
+  or the footer. Those are done by Sammy in the Wix Editor, with exact
+  steps and the text to paste written by Claude in `docs/` (see
+  `docs/editor-steps.md`), then checked by Claude on the live site.
 - **This repo holds the thinking:** `docs/plan.md` (where the site is
   going), `docs/open-list.md` (what's in progress and what each item waits
   on), page notes and copy drafts. Claude keeps both current.

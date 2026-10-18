@@ -6,35 +6,45 @@ this; Claude keeps it current. Started 18/10/2026.
 ## Open
 
 Order (Sammy, 18/10): the jobs that came from the CRM (2–4) come first,
-then the audit (5). Everything waits on Wix being connected (1).
+then the audit (5).
 
-1. **Connect Wix.** Waiting on Sammy: connect the Wix connector at
-   claude.ai/customize/connectors with the account that owns the site,
-   then start a session on this repo.
-2. **Privacy policy page** (from the CRM's open list, item 5, 18/10). The
-   site still has none (checked 18/10). Add Wix's built-in Privacy Policy
-   page (Pages & Menu → Add Page → Policies / Legal → Privacy Policy),
-   fill it with the wording in `docs/privacy-paragraphs.md` (18/10: the
-   CRM's current policy word for word, plus a section about the website
-   itself to check in Wix; Claude isn't a lawyer: check the wording),
-   publish it and link it in the footer. Then, in the CRM: set `PRIVACY_URL` to
-   the page's address so the consent line shows on the form, and add the
-   address to the Meta app (App settings → Basic → Privacy policy URL).
-   Waiting on: Wix, then Sammy's go-ahead on the wording.
+**The connector can't edit pages** (checked 18/10): this is a Wix Editor
+site, and the connector reaches its data (shop, forms, page titles for
+Google, redirects, site settings, visitor numbers, accessibility scans),
+not its pages, text, buttons, menu or footer. So 2–4 are done by Sammy in
+the Wix Editor, a few minutes each, with the steps in
+`docs/editor-steps.md`.
+
+2. **Privacy policy** (from the CRM's open list, item 5). The site has
+   none (checked 18/10). Recommended (`docs/privacy-paragraphs.md`): a
+   "Privacy policy" link in the footer to the CRM's privacy page, which
+   gets a short "This website" section, so there's one policy to keep up
+   to date. Then, in the CRM: set `PRIVACY_URL` so the consent line shows
+   on the form. Waiting on Sammy: yes to that approach (or a copy on Wix
+   instead), and the wording checked; then the footer link (steps, job 1).
 3. **WhatsApp number on the site** (from the CRM's open list: "new number
    on website/Instagram/Google"). The site shows only the landline
-   (checked 18/10). Add 07536 138295 where the landline is (header or
-   footer, and Contact us) with a link to the "save our number" card
-   (`crm.round1boxfit.co.uk/contact`). Instagram and Google stay on the
-   CRM's list. Waiting on: Wix.
-4. **Link to the 28 Day Program form** (`crm.round1boxfit.co.uk/f/free-trial`).
-   Not found in the page source on 18/10; check in Wix. Add a clear link
-   now (Home and Memberships); where it sits on the improved site comes
-   with the plan. A plain link is recorded as a Website lead in the CRM.
-   Waiting on: Wix, and Sammy's wording for the button.
-5. **Audit the site inside Wix** (`docs/plan.md`, step 2). Claude, once
-   2–4 are done.
+   (checked 18/10). Add `WhatsApp 07536 138295` beside the landline,
+   linked to a WhatsApp chat (`wa.me/447536138295`), and on Contact us a
+   "Save our number" link to `crm.round1boxfit.co.uk/contact`. Instagram
+   and Google stay on the CRM's list. Waiting on Sammy (steps, job 2).
+4. **Button to the 28 Day Program form** (`crm.round1boxfit.co.uk/f/free-trial`)
+   on Home and Memberships. Not in the page source on 18/10. Where it sits
+   on the improved site comes with the plan. A plain link is recorded as
+   a Website lead in the CRM. Waiting on Sammy: the button's wording
+   (suggestion: "Start your 28 days"), then the button (steps, job 3).
+5. **Audit the site** (`docs/plan.md`, step 2). Claude, once 2–4 are done:
+   the connector for what it can read (page titles and descriptions,
+   visitor numbers, an accessibility scan, forms, shop), the live pages
+   for the rest.
+
+## Noticed
+
+- **The shop is empty** (18/10): Wix Stores is installed with no
+  products, and its page (`/category/all-products`) is in the sitemap.
+  For the audit: hide it, or decide what to sell.
 
 ## Done
 
-Nothing yet.
+1. **Connect Wix.** Done 18/10: the connector reaches the Round One site
+   (Premium, custom domain, Wix Editor, Velo on).

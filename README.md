@@ -11,8 +11,11 @@ connector; this repo is where the plans are written down and kept.
 
 1. Connect Wix to Claude at claude.ai/customize/connectors (once).
 2. Start a Claude Code session with this repo selected.
-3. Ask for what you want. Claude says what will change on the site and
-   waits for a yes before anything goes live.
+3. Ask for what you want. Claude says what will change and waits for a
+   yes before anything goes live. The connector can't edit the pages
+   themselves (text, buttons, menu, footer): for those Claude writes the
+   steps and the text, you make the change in the Wix Editor, and Claude
+   checks the live site.
 
 ## What's in here
 
@@ -20,6 +23,7 @@ connector; this repo is where the plans are written down and kept.
   and copy rules. Claude reads it at the start of every session.
 - `docs/plan.md`: where the site is going.
 - `docs/open-list.md`: what's in progress and what each item waits on.
+- `docs/editor-steps.md`: step-by-step changes to make in the Wix Editor.
 - `docs/privacy-paragraphs.md`: wording for the privacy page.
 
 The CRM is a separate repo, `SammyYellows/Round-One-CRM-`.
